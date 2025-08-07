@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Сюрприз для Сергея</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #1e1e1e, #3a3a3a);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 30px;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: #00adb5;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #007b80;
+    }
+  </style>
+</head>
+<body>
+  <h1>Сергей, я сделал!</h1>
+  <button onclick="showMessage()">Нажми сюда</button>
+
+  <script>
+    function showMessage() {
+      alert('та нихуя я не сделал');
+    }
+  </script>
+</body>
+</html>
